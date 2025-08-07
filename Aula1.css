@@ -1,0 +1,42 @@
+h1,h5{
+    text-align: center;
+}
+
+.teste{
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    text-align: center;
+}
+
+
+body{
+    background-color: bisque;
+}
+
+ul{
+    text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.Experiencias{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 377px;
+    background-color: brown;
+    color: white;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+}
