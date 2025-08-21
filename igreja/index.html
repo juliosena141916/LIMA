@@ -4,47 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Igreja</title>
+    <title>Igreja PPP</title>
 </head>
 <body>
     <header>
-
         <div>
-            <h1>
-                Igreja PPP
-            </h1>
+            <h1>Igreja PPP</h1>
         </div>
 
         <div class="menu">
-            <p>Doações </p> <p>Contato </p> <p>Sobre </p>
+            <p>Doações</p>
+            <p>Contato</p>
+            <p>Sobre</p>
         </div>
-
     </header>
-    
+
+    <!-- Banner de Boas-Vindas -->
+    <section class="banner">
+        <h2>Bem-vindo à Igreja PPP</h2>
+        <p>Estamos felizes em tê-lo conosco. Junte-se a nós em nossa jornada de fé e amor.</p>
+        <button onclick="window.location.href='#eventos'">Veja nossos eventos</button>
+    </section>
+
+    <!-- Container Principal -->
     <div class="container">
+        <!-- Bloco de Texto -->
         <div class="txt1">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-               Dicta eligendi ducimus quasi eaque inventore nobis repellendus enim?
-               Earum animi quasi libero culpa deserunt, fugit quidem, omnis minima eligendi,
-               voluptas unde.
-            </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta eligendi ducimus quasi eaque inventore nobis repellendus enim? Earum animi quasi libero culpa deserunt, fugit quidem, omnis minima eligendi, voluptas unde.</p>
         </div>
         <div class="txt2">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-               Dicta eligendi ducimus quasi eaque inventore nobis repellendus enim?
-               Earum animi quasi libero culpa deserunt, fugit quidem, omnis minima eligendi,
-               voluptas unde.
-            </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta eligendi ducimus quasi eaque inventore nobis repellendus enim? Earum animi quasi libero culpa deserunt, fugit quidem, omnis minima eligendi, voluptas unde.</p>
         </div>
         <div class="txt3">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-               Dicta eligendi ducimus quasi eaque inventore nobis repellendus enim?
-               Earum animi quasi libero culpa deserunt, fugit quidem, omnis minima eligendi,
-               voluptas unde.
-            </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta eligendi ducimus quasi eaque inventore nobis repellendus enim? Earum animi quasi libero culpa deserunt, fugit quidem, omnis minima eligendi, voluptas unde.</p>
         </div>
-
     </div>
 
+    <!-- Seção de Eventos -->
+    <section id="eventos" class="eventos">
+        <h2>Próximos Eventos</h2>
+        <div class="evento">
+            <h3>Culto de Oração</h3>
+            <p>Data: 25 de Setembro de 2025</p>
+            <p>Horário: 19:00</p>
+        </div>
+        <div class="evento">
+            <h3>Conferência Jovem</h3>
+            <p>Data: 2 de Outubro de 2025</p>
+            <p>Horário: 10:00</p>
+        </div>
+    </section>
+
+    <!-- Testemunhos -->
+    <section class="testemunhos">
+        <h2>Testemunhos</h2>
+        <div class="testemunho">
+            <p>"A Igreja PPP tem sido um apoio fundamental na minha caminhada de fé. Sou grato por tudo que aprendi aqui!" - João Silva</p>
+        </div>
+        <div class="testemunho">
+            <p>"É um lugar de acolhimento e crescimento espiritual. Sinto-me em casa!" - Maria Oliveira</p>
+        </div>
+    </section>
+
+    <!-- Localização -->
+    <section class="localizacao">
+        <h2>Onde Estamos?</h2>
+        <p>Venha nos visitar em nosso endereço:</p>
+        <p>Rua da Fé, 123 - Bairro Esperança, Cidade XYZ</p>
+        <iframe src="https://www.google.com/maps/embed?pb=...YOUR_GOOGLE_MAPS_EMBED_URL..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section class="contato">
+        <h2>Contato</h2>
+        <form action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Igreja PPP. Todos os direitos reservados.</p>
+        <p>Telefone: (XX) XXXX-XXXX | Email: contato@igrejaPPP.com</p>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <picture>
+        <source media="(max-width:100 )" srcset="molangoP.jpg" type="img/png">
+        <img src="molangoP.png" alt="A imagem flexivel funciona">
+
+        <source media="(max-width:200)" srcset="molangoM.jpg" type="img/png">
+        <img src="molangoM.png" alt="A imagem flexivel funciona">
+
+        <source media="(max-width:300)" srcset="molangoG.jpg" type="img/png">
+        <img src="molangoG.png" alt="A imagem flexivel funciona">
+
+    </picture>
+</body>
+</html>
