@@ -1,0 +1,40 @@
+.imagens{
+    padding: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 245px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    background-color: palevioletred;
+}
+
+img{
+    padding: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+    height: 245px;
+    width: auto;
+}
+
+img:hover{
+    height: 270px;
+    width: auto;
+}
+
+h1{
+    background-color: rgb(155, 21, 178);
+}
+
+body{
+    background-color: rgb(147, 11, 178);
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    margin-top: 207px;
+    background-color: rgb(155, 21, 178);
+}
