@@ -1,40 +1,123 @@
-.imagens{
-    padding: auto;
-    margin-left: 20px;
-    margin-right: 10px;
-    height: 245px;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    background-color: palevioletred;
+/* Reseta algumas configurações padrão */
+
+@font-face {
+    font-family: 'Comic Jungle';
+    src: url('Comic_jungle.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1em;
 }
 
-img{
-    padding: auto;
-    margin-left: 20px;
-    margin-right: 10px;
-    height: 245px;
-    width: auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-img:hover{
-    height: 270px;
-    width: auto;
+/* Definindo o estilo geral do body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f0f9; /* Tom suave de roxo claro */
+    color: #7c38b8; /* Roxo médio vibrante */
 }
 
-h1{
-    background-color: rgb(155, 21, 178);
-}
-
-body{
-    background-color: rgb(147, 11, 178);
-}
-
-header{
+/* Cabeçalho */
+header.cabeca {
+    background-color: #9b4dca; /* Roxo vibrante */
+    color: #ffcd00; /* Amarelo vibrante */
     text-align: center;
+    padding: 20px;
 }
 
-footer{
-    margin-top: 207px;
-    background-color: rgb(155, 21, 178);
+header.cabeca h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+/* Estilo das imagens */
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.imagem-container {
+    position: relative;
+    width: 250px;
+    height: 350px; /* Aumenta a altura das imagens */
+    margin-bottom: 20px;
+}
+
+.imagens img {
+    width: 100%;
+    height: 100%; /* As imagens terão a altura aumentada */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagens img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Descrição do texto */
+.descricao {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente */
+    color: #ffcd00; /* Texto amarelo */
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    display: none; /* Inicialmente escondido */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Quando o mouse passar sobre a imagem */
+.imagem-container:hover .descricao {
+    display: block; /* Exibe o texto quando passar o mouse */
+}
+
+/* Rodapé */
+footer.pe {
+    background-color: #9b4dca; /* Roxo vibrante */
+    color: #ffcd00; /* Amarelo vibrante */
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer.pe p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* Estilo dos ícones */
+footer.pe i {
+    margin-right: 10px; /* Espaçamento entre o ícone e o texto */
+    color: #ffcd00; /* Cor dos ícones */
+    font-size: 1.3rem; /* Tamanho do ícone */
+}
+
+/* Para a responsividade */
+@media (max-width: 768px) {
+    .imagens {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem-container {
+        margin-bottom: 20px;
+    }
+
+    .imagens img {
+        width: 80%;
+    }
 }
