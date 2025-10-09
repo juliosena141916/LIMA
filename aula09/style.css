@@ -1,0 +1,53 @@
+div.quadrado {
+    display: inline-block;
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+div#q1 {
+    background-color: aqua;
+}
+
+div#q2 {
+    background-image: linear-gradient(to bottom, black, blue);
+}
+
+div#q3 {
+    background-image: url(terra.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-attachment: scroll;
+}
+
+body {
+    background-color: black;
+    background-image: url(espaço.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    /* background: black url(espaço.jpg) center center no-repeat fixed; */
+}
+
+div#fora {
+    height: 10vh;
+    background-color: red;
+    position: relative;
+}
+
+div#dentro {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
