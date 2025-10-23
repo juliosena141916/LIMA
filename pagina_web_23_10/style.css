@@ -1,0 +1,53 @@
+#topo{
+    height: 200px;
+    width: auto;
+    background: linear-gradient(darkorange, blanchedalmond);
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding-top: 5px;
+    font-family:  'oswald',sans-serif;
+    font-size:large;
+}
+
+#palavras{
+    background-color: beige;
+    border: 12px solid beige;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+}
+
+#subtitulo{
+    background: linear-gradient(to right,darkorange, yellow,beige);
+}
+
+#caixa{
+    border: 15px solid blanchedalmond;
+    border-radius: 10px;
+    width: 720px;
+    position: relative;
+    left: 600px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+}
+
+iframe{
+    width: 695px;
+    padding-bottom: 15px;
+}
+
+#baixo{
+    background: linear-gradient(to right,darkorange, yellow,beige);
+}
+
+#baixo2{
+    border: 1px solid beige;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+footer{
+    width: auto;
+    background-color: darkorange;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
